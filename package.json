@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/pdme"
   },
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Pebbles UI",
   "author": "Pebbles",
   "license": "MIT",
