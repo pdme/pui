@@ -8,8 +8,8 @@
   "author": "Pebbles",
   "license": "MIT",
   "scripts": {
-    "rollup": "NODE_ENV=production rollup -c",
-    "release": "yarn rollup && npm publish"
+    "build": "NODE_ENV=production rollup -c",
+    "release": "yarn build && npm publish"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
