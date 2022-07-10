@@ -8,7 +8,7 @@ An example of a build setup using Rollup for a component library based on React 
 
 Work flow:
 
-* You develop your components in isolation using Storybook (excluded in this example repo for simplicity).
+* You develop your components in isolation using Storybook (excluded in this example repo for simplicity). You export your components and typings as shown in the Button example.
 * Once ready to publish a new version, you build using rollup (`yarn build`). This will create a dist folder with CommonJS as well as ESM modules. Tailwind's css is purged and included in the JS bundle (you can choose to extract the css into a separate file if desired). Typings are also included and sourcemapped.
 * You then bump the version number in package.json, and publish to GitHub packages (`npm publish`).
 
